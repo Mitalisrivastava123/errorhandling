@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- html start -->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -7,13 +8,15 @@
   <title>Document</title>
 </head>
 <body>
+  <!-- form start -->
 <form action = "" method="POST">
     <input type="text" name="files" placeholder="enter value">
     <button type="submit" name="submit">submit</button>
 </form>
-
+<!-- form end -->
 </body>
 </html>
+<!-- condition checking  -->
 <?php
 $file = $_POST["files"];
 

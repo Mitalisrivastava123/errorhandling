@@ -1,4 +1,4 @@
-
+>
 <?php
 echo $var; 
  $error_info = error_get_last();
@@ -13,4 +13,4 @@ echo $var;
   print_r ("<h3>" .$error_info['file']. "</h3>");
 
   print_r ("<h3>" .$error_info['line']. "</h3>"); 
-?>
+?><!-- using error_get_last function showing error type message file and line of the error --

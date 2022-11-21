@@ -7,12 +7,14 @@
     <title>Document</title>
 </head>
 <body>
+  <!-- form start -->
   <h3> Give Error When Value is Greater then 1</h3>
     <form action = "" method="POST">
     <input type="number" name="testing" placeholder="enter value">
     <button type="submit" name="submit">submit</button>
 </form>
 </body>
+<!-- give e user warning when value is greater then 1 -->
 </html>
 <?php
 function customError($errorno, $errorstr) {

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
+    <!-- All Task Page -->
 Task1 = <a href="task1.php">Create a custom error handling using die() function when unable to open  certain file</a><br>
 Tak2 =<a href="customerror.php">Create a custom error handler using set error handler that shows error no and error string</a><br>
 Task3 =<a href="task3.php">Trigger an error for certain variable value greater than 100</a><br>

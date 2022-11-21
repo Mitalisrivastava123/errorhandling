@@ -1,6 +1,5 @@
-
+<!-- defining error line number and error on file for file file1.txt -->
 <?php
-
 function customError($errorno, $errorstr,$errorfile,$errorline) {
     echo "<h3>  $errorstr </h3>";
   

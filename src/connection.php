@@ -16,4 +16,5 @@ else
 {
   echo "connected successfully";
 }
+// if the connection is not possible it will show an error connection failed else connected
 ?>

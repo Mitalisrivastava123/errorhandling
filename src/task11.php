@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+<!-- link defined for connection page with database  -->
 <a href="connection.php"><button type="submit" name="btn">Connecting to database</button></a>
 </body>
 </html>

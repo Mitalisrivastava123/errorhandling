@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+  <!-- form start -->
   <h3> Give Error When Value is Greater then 100</h3>
     <form action = "" method="POST">
     <input type="number" name="number" placeholder="enter value">
@@ -14,13 +15,14 @@
 </form>
 </body>
 </html>
+<!-- function customerror show error when value is greater then 100 -->
 <?php
 
 function customError($errorno, $errorstr) {
     echo "<h3>  $errorstr </h3>";
   
   }
-  //set error handler
+  //set error handler function
   set_error_handler("customError");
 
 $number = $_POST["number"];
